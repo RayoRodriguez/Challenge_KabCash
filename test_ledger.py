@@ -73,5 +73,5 @@ def test_total_debt():
 
 
 if __name__=="__main__":
-    #test_ledger_balance_loan()
+    test_ledger_balance_loan()
     test_total_debt()

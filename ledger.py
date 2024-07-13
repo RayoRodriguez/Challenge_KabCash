@@ -1,6 +1,7 @@
 class Ledger(object):
     def __init__(self, transaction_list):
         self.transaction_list = transaction_list
+        Transaction.bd_transactions = []
 
     def execute_transactions(self):
         for transaction in self.transaction_list:
